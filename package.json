@@ -1,0 +1,42 @@
+{
+  "name": "workLog",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "expo": "^29.0.0",
+    "jalali-moment": "^3.2.1",
+    "lodash": "^4.17.10",
+    "prop-types": "^15.6.2",
+    "react": "16.4.1",
+    "react-native": "0.56.0",
+    "react-native-android-permissions": "^1.0.2",
+    "react-native-doc-viewer": "^2.7.8",
+    "react-native-elements": "^1.0.0-beta5",
+    "react-native-fetch-blob": "^0.10.8",
+    "react-native-fs": "^2.11.15",
+    "react-native-modal": "^6.5.0",
+    "react-native-modal-datetime-picker": "^6.0.0",
+    "react-native-persian-calendar-picker": "^2.2.2",
+    "react-native-stopwatch-timer": "git+https://github.com/Mohammad-Aghajani/react-native-stopwatch-timer.git",
+    "react-native-vector-icons": "^5.0.0",
+    "react-navigation": "^2.13.0",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0",
+    "redux-persist": "^5.10.0",
+    "xlsx": "^0.14.0"
+  },
+  "devDependencies": {
+    "babel-jest": "23.4.2",
+    "babel-preset-react-native": "^5",
+    "eslint-config-rallycoding": "^3.2.0",
+    "jest": "23.4.2",
+    "react-test-renderer": "16.4.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
